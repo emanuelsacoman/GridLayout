@@ -1,0 +1,91 @@
+body{
+    background-color: #252525;
+    min-height: 100%;
+    width: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.item{
+    display: flex;
+    padding: 10px;
+    font-size: clamp(1.3rem, 5vw, 2rem);
+    align-items: center;
+    justify-content: center;
+    outline: 2px solid #000;
+    transition: all 0.3s ease;
+}
+
+.item:hover{
+    filter: brightness(1.1);
+}
+
+.header{
+    grid-area: header;
+    background-color: #b3f1ff; 
+}
+
+.content{
+    grid-area: content;
+    background-color: #ffdfba;
+}
+
+.featurered{
+    grid-area: fred;
+    background-color: #ffb3ba; 
+}
+
+.featurepurple{
+    grid-area: fpurple;
+    background-color: #cab3ff; 
+}
+
+.featureyellow{
+    grid-area: fyellow;
+    background-color: #ffffba;
+}
+
+.signup{
+    grid-area: signup;
+    background-color: #baffe3; 
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 1fr);
+    grid-template-rows: 250px 200px 150px 100px;
+    grid-template-areas: 
+    "   header   header   header    "
+    "   fyellow   fpurple   fred    "
+    "   signup   signup   signup    "
+    "   content   content   content "
+    ;
+}
+
+@media screen and (max-width: 1023px){
+    .container{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 100px auto 150px 150px;
+        grid-template-areas: 
+        "   header   header     "
+        "   content   content   "
+        "   signup   fyellow    "
+        "   fred   fpurple      "
+        ;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px auto repeat(4, 100px);
+        grid-template-areas: 
+        "   header  "
+        "   content "
+        "   signup  "
+        "   fyellow "
+        "   fred    "
+        "   fpurple "
+        ;
+    }
+    
+}
