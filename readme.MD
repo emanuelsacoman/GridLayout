@@ -1,7 +1,7 @@
 
 # Grid Layout ⊞⊞⊞
 
-Grid é um tipo de **display** do css, assim como o **flex**, serve para manipular o layout da página web, o diferencial é que, com o grid, podemos transformar nossa página em vários quadrados e neles atibuir espaços específicos, como HEADER, FOOTER, etc...
+Grid é um tipo de **display** do css, assim como o **flex**, serve para manipular o layout da página web, o diferencial é que, com o grid, podemos transformar nossa página em vários quadrados e neles atribuir espaços específicos, como HEADER, FOOTER, etc...
 
 Com esse método, podemos utilizar a responsividade de uma forma única e didática.
 
