@@ -5,14 +5,14 @@ Grid é um tipo de **display** do css, assim como o **flex**, serve para manipul
 
 Com esse método, podemos utilizar a responsividade de uma forma única e didática.
 
-![Página 1](./images/page1.png)
 > Tela grande
+![Página 1](./images/page1.png)
 
-![Página 2](./images/page2.png)
 > Tablet
+![Página 2](./images/page2.png)
 
-![Página 3](./images/page3.png)
 > Celular
+![Página 3](./images/page3.png)
 
 Para quem está acostumado a utilizar o flex, pode estranhar a maneira como o grid é utilizado. Em casos específicos, o grid segue com vantagem, principalmente quando precisamos criar layouts mais complexos e alinhamentos precisos. A utilização de grid pode ser extremamente poderosa. Ele permite que você crie interfaces de usuário altamente responsivas e bem estruturadas, tal como o flex, porém em situações específicas.
 
